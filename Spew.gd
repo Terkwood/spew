@@ -16,9 +16,7 @@ func _ready():
 
 func _input(event):
 	if event is InputEventMouseButton:
-		print("hey")
 		add_princess()
 	if event is InputEventScreenTouch:
 		if event.pressed:
-			print("ho")
 			add_princess()
