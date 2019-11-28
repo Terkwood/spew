@@ -5,6 +5,7 @@ var Princess = preload("res://Princess.tscn")
 var screen_size = OS.get_screen_size()
 var window_size = OS.get_window_size()
 
+var spew = false
 
 func add_princess():
 	var new_princess = Princess.instance()
@@ -14,9 +15,21 @@ func add_princess():
 func _ready():
 	OS.set_window_position(screen_size*0.5 - window_size*0.5)
 
+func _physics_process(_delta):
+	if spew:
+		add_princess()
+
+
 func _input(event):
 	if event is InputEventMouseButton:
-		add_princess()
+		if event.pressed:
+			add_princess()
+			spew = true
+		else:
+			spew = false
 	if event is InputEventScreenTouch:
 		if event.pressed:
 			add_princess()
+			spew = true
+		else:
+			spew = false
