@@ -8,4 +8,6 @@ No.
 
 ## Attributions
 
-Thank you to all the creators of open source art.
+Thank you to all the creators of open source art!
+
+- [Lanea Zimmerman (AKA Sharm)](https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles) created the Princess image. 👸
