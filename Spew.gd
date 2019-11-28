@@ -1,6 +1,6 @@
 extends Node2D
 
-export (PackedScene) var Princess
+var Princess = preload("res://Princess.tscn")
 
 var screen_size = OS.get_screen_size()
 var window_size = OS.get_window_size()
@@ -15,8 +15,10 @@ func _ready():
 	OS.set_window_position(screen_size*0.5 - window_size*0.5)
 
 func _input(event):
-	if event.is_action_pressed("click"):
+	if event is InputEventMouseButton:
+		print("hey")
 		add_princess()
 	if event is InputEventScreenTouch:
-		if event.pressed:  
+		if event.pressed:
+			print("ho")
 			add_princess()

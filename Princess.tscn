@@ -7,6 +7,7 @@ radius = 9.08643
 height = 29.9753
 
 [node name="Princess" type="RigidBody2D"]
+gravity_scale = 18.48
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
