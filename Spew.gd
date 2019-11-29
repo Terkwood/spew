@@ -6,6 +6,7 @@ const Shovel = preload("res://Shovel.tscn")
 const Diamond = preload("res://Diamond.tscn")
 const BoarHead = preload("res://BoarHead.tscn")
 const SushiRoll = preload("res://SushiRoll.tscn")
+const Pretzel = preload("res://Pretzel.tscn")
 
 const all_things = [
 	Princess,
@@ -13,7 +14,8 @@ const all_things = [
 	Shovel, 
 	Diamond, 
 	BoarHead, 
-	SushiRoll
+	SushiRoll,
+	Pretzel
 ]
 
 var screen_size = OS.get_screen_size()
