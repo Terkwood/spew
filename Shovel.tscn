@@ -7,18 +7,22 @@
 radius = 7.88976
 
 [sub_resource type="SegmentShape2D" id=2]
+a = Vector2( -2.51852, 2.22223 )
 b = Vector2( 14.5556, -13.7284 )
 
 [node name="Shovel" type="RigidBody2D"]
 script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -8.2963, 8.69136 )
+position = Vector2( -16.9877, 17.1852 )
+scale = Vector2( 2, 2 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+scale = Vector2( 2, 2 )
 shape = SubResource( 2 )
 
