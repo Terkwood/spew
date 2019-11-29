@@ -5,8 +5,16 @@ const Turkey = preload("res://Turkey.tscn")
 const Shovel = preload("res://Shovel.tscn")
 const Diamond = preload("res://Diamond.tscn")
 const BoarHead = preload("res://BoarHead.tscn")
+const SushiRoll = preload("res://SushiRoll.tscn")
 
-const all_things = [Princess, Turkey, Shovel, Diamond, BoarHead]
+const all_things = [
+	Princess,
+	Turkey, 
+	Shovel, 
+	Diamond, 
+	BoarHead, 
+	SushiRoll
+]
 
 var screen_size = OS.get_screen_size()
 var window_size = OS.get_window_size()
