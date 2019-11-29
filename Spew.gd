@@ -1,7 +1,11 @@
 extends Node2D
 
-var Princess = preload("res://Princess.tscn")
-var Turkey = preload("res://Turkey.tscn")
+const Princess = preload("res://Princess.tscn")
+const Turkey = preload("res://Turkey.tscn")
+const Shovel = preload("res://Shovel.tscn")
+const Diamond = preload("res://Diamond.tscn")
+
+const all_things = [Princess, Turkey, Shovel, Diamond]
 
 var screen_size = OS.get_screen_size()
 var window_size = OS.get_window_size()
@@ -9,20 +13,13 @@ var window_size = OS.get_window_size()
 var spew = false
 
 func add_someone():
-	if randi() % 2 == 0:
-		add_princess()
-	else:
-		add_turkey()
+	var r = randi() % all_things.size()
+	add(all_things[r])
 
-func add_princess():
-	var new_princess = Princess.instance()
-	new_princess.position = get_viewport().get_mouse_position()
-	add_child(new_princess)
-
-func add_turkey():
-	var new_turkey = Turkey.instance()
-	new_turkey.position = get_viewport().get_mouse_position()
-	add_child(new_turkey)
+func add(form):
+	var thing = form.instance()
+	thing.position = get_viewport().get_mouse_position()
+	add_child(thing)
 
 func _ready():
 	OS.set_window_position(screen_size*0.5 - window_size*0.5)
