@@ -1,10 +1,11 @@
 extends Node2D
 
-var Princess = preload("res://Princess.tscn")
-var Turkey = preload("res://Turkey.tscn")
-var Shovel = preload("res://Shovel.tscn")
+const Princess = preload("res://Princess.tscn")
+const Turkey = preload("res://Turkey.tscn")
+const Shovel = preload("res://Shovel.tscn")
+const Diamond = preload("res://Diamond.tscn")
 
-var all_things = [Princess, Turkey, Shovel]
+const all_things = [Princess, Turkey, Shovel, Diamond]
 
 var screen_size = OS.get_screen_size()
 var window_size = OS.get_window_size()
