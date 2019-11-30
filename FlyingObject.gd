@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 const max_offset = 10
-const max_force = 3333
+const max_force = 1000
 
 var age = 0
 const deadline = 6
