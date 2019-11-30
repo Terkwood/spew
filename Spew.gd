@@ -9,6 +9,8 @@ const SushiRoll = preload("res://SushiRoll.tscn")
 const Pretzel = preload("res://Pretzel.tscn")
 const Watermelon = preload("res://Watermelon.tscn")
 const RoastedChicken = preload("res://RoastedChicken.tscn")
+const CheeseWedge = preload("res://CheeseWedge.tscn")
+const Shrimp = preload("res://Shrimp.tscn")
 
 const all_things = [
 	Princess,
@@ -19,7 +21,9 @@ const all_things = [
 	SushiRoll,
 	Pretzel,
 	Watermelon,
-	RoastedChicken
+	RoastedChicken,
+	CheeseWedge,
+	Shrimp
 ]
 
 var screen_size = OS.get_screen_size()
