@@ -4,7 +4,7 @@ const max_offset = 10
 const max_force = 1000
 
 var age = 0
-const deadline = 6
+const deadline = 9
 
 func rand_sign():
 	return 1 if randi() % 2 == 0 else -1

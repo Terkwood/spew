@@ -1,18 +1,28 @@
 extends Node2D
 
-const Princess = preload("res://Princess.tscn")
-const Turkey = preload("res://Turkey.tscn")
-const Shovel = preload("res://Shovel.tscn")
-const Diamond = preload("res://Diamond.tscn")
+const Apple = preload("res://Apple.tscn")
+const Avocado = preload("res://Avocado.tscn")
 const BoarHead = preload("res://BoarHead.tscn")
-const SushiRoll = preload("res://SushiRoll.tscn")
-const Pretzel = preload("res://Pretzel.tscn")
-const Watermelon = preload("res://Watermelon.tscn")
-const RoastedChicken = preload("res://RoastedChicken.tscn")
 const CheeseWedge = preload("res://CheeseWedge.tscn")
+const Cherry = preload("res://Cherry.tscn")
+const Diamond = preload("res://Diamond.tscn")
+const Honey = preload("res://Honey.tscn")
+const Pretzel = preload("res://Pretzel.tscn")
+const Princess = preload("res://Princess.tscn")
+const RoastedChicken = preload("res://RoastedChicken.tscn")
+const Shovel = preload("res://Shovel.tscn")
 const Shrimp = preload("res://Shrimp.tscn")
+const SushiRoll = preload("res://SushiRoll.tscn")
+const Turkey = preload("res://Turkey.tscn")
+const Watermelon = preload("res://Watermelon.tscn")
+
+
 
 const all_things = [
+	Apple,
+	Avocado,
+	Cherry,
+	Honey,
 	Princess,
 	Turkey, 
 	Shovel, 
