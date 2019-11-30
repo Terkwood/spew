@@ -1,10 +1,10 @@
 # Godot Spew Game
 
-Create lots of sprites and watch them fly around at high speed.  Compare rust performance against GDScript.  _Have fun!_
+Create lots of sprites and watch them fly around.
 
-## Is it any good?
+## The Future
 
-No.
+Compare rust performance against GDScript under GLES 3.
 
 ## Attributions
 
