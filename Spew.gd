@@ -1,39 +1,25 @@
 extends Node2D
 
-const Apple = preload("res://Apple.tscn")
-const Avocado = preload("res://Avocado.tscn")
-const BoarHead = preload("res://BoarHead.tscn")
-const CheeseWedge = preload("res://CheeseWedge.tscn")
-const Cherry = preload("res://Cherry.tscn")
-const Diamond = preload("res://Diamond.tscn")
-const Honey = preload("res://Honey.tscn")
-const Pretzel = preload("res://Pretzel.tscn")
-const Princess = preload("res://Princess.tscn")
-const RoastedChicken = preload("res://RoastedChicken.tscn")
-const Shovel = preload("res://Shovel.tscn")
-const Shrimp = preload("res://Shrimp.tscn")
-const SushiRoll = preload("res://SushiRoll.tscn")
-const Turkey = preload("res://Turkey.tscn")
-const Watermelon = preload("res://Watermelon.tscn")
-
-
-
 const all_things = [
-	Apple,
-	Avocado,
-	Cherry,
-	Honey,
-	Princess,
-	Turkey, 
-	Shovel, 
-	Diamond, 
-	BoarHead, 
-	SushiRoll,
-	Pretzel,
-	Watermelon,
-	RoastedChicken,
-	CheeseWedge,
-	Shrimp
+	preload("res://Apple.tscn"),
+	preload("res://Avocado.tscn"),
+	preload("res://Blackbird.tscn"),
+	preload("res://BoarHead.tscn"),
+	preload("res://CheeseWedge.tscn"),
+	preload("res://Cherry.tscn"),
+	preload("res://Diamond.tscn"),
+	preload("res://Honey.tscn"),
+	preload("res://Pineapple.tscn"),
+	preload("res://Pretzel.tscn"),
+	preload("res://Princess.tscn"),
+	preload("res://PumpkinPie.tscn"),
+	preload("res://RoastedChicken.tscn"),
+	preload("res://Shovel.tscn"),
+	preload("res://Shrimp.tscn"),
+	preload("res://SushiRoll.tscn"),
+	preload("res://SushiRoll2.tscn"),
+	preload("res://Turkey.tscn"),
+	preload("res://Watermelon.tscn"),
 ]
 
 var screen_size = OS.get_screen_size()
