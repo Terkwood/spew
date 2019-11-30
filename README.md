@@ -15,3 +15,4 @@ Thank you to all the creators of open source art!
 - [Shovel](https://opengameart.org/content/shovel-1)
 - [Diamond](https://opengameart.org/content/diamond-1)
 - [Henry Software Pixel Food](https://henrysoftware.itch.io/pixel-food)
+- [Winter Birds](https://opengameart.org/content/winter-birds) by [Refuzzle](https://opengameart.org/users/refuzzle)
