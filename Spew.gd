@@ -9,10 +9,12 @@ const Diamond = preload("res://Diamond.tscn")
 const Honey = preload("res://Honey.tscn")
 const Pretzel = preload("res://Pretzel.tscn")
 const Princess = preload("res://Princess.tscn")
+const PumpkinPie = preload("res://PumpkinPie.tscn")
 const RoastedChicken = preload("res://RoastedChicken.tscn")
 const Shovel = preload("res://Shovel.tscn")
 const Shrimp = preload("res://Shrimp.tscn")
 const SushiRoll = preload("res://SushiRoll.tscn")
+const SushiRoll2 = preload("res://SushiRoll2.tscn")
 const Turkey = preload("res://Turkey.tscn")
 const Watermelon = preload("res://Watermelon.tscn")
 
@@ -29,7 +31,9 @@ const all_things = [
 	Diamond, 
 	BoarHead, 
 	SushiRoll,
+	SushiRoll2,
 	Pretzel,
+	PumpkinPie,
 	Watermelon,
 	RoastedChicken,
 	CheeseWedge,
