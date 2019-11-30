@@ -1,6 +1,7 @@
 extends Node2D
 
 const Apple = preload("res://Apple.tscn")
+const Avocado = preload("res://Avocado.tscn")
 const Princess = preload("res://Princess.tscn")
 const Turkey = preload("res://Turkey.tscn")
 const Shovel = preload("res://Shovel.tscn")
@@ -15,6 +16,7 @@ const Shrimp = preload("res://Shrimp.tscn")
 
 const all_things = [
 	Apple,
+	Avocado,
 	Princess,
 	Turkey, 
 	Shovel, 
