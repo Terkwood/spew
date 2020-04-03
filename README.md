@@ -2,10 +2,6 @@
 
 Create lots of sprites and watch them fly around.
 
-## The Future
-
-Compare rust performance against GDScript under GLES 3.
-
 ## Attributions
 
 Thank you to all the creators of open source art!
